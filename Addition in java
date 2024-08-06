@@ -1,0 +1,12 @@
+import java.util.*;
+public class Additon {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.err.print("enter first number: ");
+        int a=sc.nextInt();
+        System.err.print("enter second nember: ");
+        int b=sc.nextInt();
+        System.out.println("adition of "+a+" and "+b+ " is "+(a+b));
+
+    }
+}
